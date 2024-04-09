@@ -1,0 +1,17 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vehicle Booking Confirmation</title>
+</head>
+<body>
+  <h1>Vehicle Booking Confirmation</h1>
+  <p>Dear <%= @booking.user.email %>,</p>
+  <p>Total Rent: <%= @booking.total_rent %></p>
+
+  <p>Your booking for the vehicle has been confirmed. </p>
+ 
+  <p>Thank you for choosing our service. Have a great ride!</p>
+</body>
+</html>

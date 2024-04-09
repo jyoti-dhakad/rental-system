@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pick_up: MyString
+  drop_off: MyString
+  pick_up_time: MyString
+  drop_off_time: MyString
+  vehicle: one
+
+two:
+  pick_up: MyString
+  drop_off: MyString
+  pick_up_time: MyString
+  drop_off_time: MyString
+  vehicle: two
